@@ -16,48 +16,48 @@
     <div class="col-md-6 position-relative">
       <label for="first-name-input" class="form-label">First Name</label>
       <input type="text" class="form-control" id="first-name-input" required />
-      <div class="invalid-tooltip">Please enter your first name.</div>
+      <div class="invalid-feedback">Please enter your first name.</div>
     </div>
 
     <!-- Last Name -->
     <div class="col-md-6 position-relative">
       <label for="last-name-input" class="form-label">Last Name</label>
       <input type="text" class="form-control" id="last-name-input" required />
-      <div class="invalid-tooltip">Please enter your last name.</div>
+      <div class="invalid-feedback">Please enter your last name.</div>
     </div>
 
     <!-- Email -->
     <div class="col-md-6 position-relative">
-      <label for="email-input" class="form-label">Email</label>
+      <label for="email-input" class="form-label">Email Address</label>
       <input type="email" class="form-control" id="email-input" required />
-      <div class="invalid-tooltip">Please enter a valid email address.</div>
-    </div>
-
-    <!-- Roll Number -->
-    <div class="col-md-6 position-relative">
-      <label for="roll-no-input" class="form-label">Roll Number</label>
-      <input type="text" class="form-control" id="roll-no-input" required />
-      <div class="invalid-tooltip">Please enter your roll number.</div>
+      <div class="invalid-feedback">Please enter a valid email address.</div>
     </div>
 
     <!-- College Name -->
     <div class="col-md-6 position-relative">
-      <label for="college-input" class="form-label">College Name</label>
+      <label for="college-input" class="form-label">College</label>
       <input type="text" class="form-control" id="college-input" required />
-      <div class="invalid-tooltip">Please enter your college name.</div>
+      <div class="invalid-feedback">Please enter your college name.</div>
     </div>
 
     <!-- Graduation Year -->
     <div class="col-md-6 position-relative">
-      <label for="graduation-year" class="form-label">Graduation Year</label>
-      <select class="form-select" id="graduation-year" required>
+      <label for="grad-year-select" class="form-label">Graduation Year</label>
+      <select class="form-select" id="grad-year-select" required>
         <option selected disabled value="">Choose...</option>
         <option>2020</option>
         <option>2021</option>
         <option>2022</option>
         <option>2023</option>
       </select>
-      <div class="invalid-tooltip">Please select your graduation year.</div>
+      <div class="invalid-feedback">Please select your graduation year.</div>
+    </div>
+
+    <!-- Roll Number -->
+    <div class="col-md-6 position-relative">
+      <label for="roll-no-input" class="form-label">Roll No</label>
+      <input type="text" class="form-control" id="roll-no-input" required />
+      <div class="invalid-feedback">Please enter your roll number.</div>
     </div>
 
     <!-- Conditions Checkbox -->
@@ -67,7 +67,7 @@
         <label class="form-check-label" for="conditions-checkbox">
           I agree to the terms and conditions
         </label>
-        <div class="invalid-tooltip">You must agree before submitting.</div>
+        <div class="invalid-feedback">You must agree before submitting.</div>
       </div>
     </div>
 
